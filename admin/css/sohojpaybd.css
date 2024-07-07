@@ -1,0 +1,20 @@
+@media screen and (max-width: 782px) {
+  .form-table textarea,
+  .form-table span.description,
+  .form-table td input[type="email"],
+  .form-table td input[type="password"],
+  .form-table td input[type="text"],
+  .form-table td select,
+  .form-table td textarea {
+    width: 100%;
+    display: block;
+    max-width: none;
+    box-sizing: border-box;
+  }
+}
+
+.sohojpaybd-wrapper {
+  border: 1px solid #f3f3;
+  border-radius: 4px;
+  padding: 5px;
+}

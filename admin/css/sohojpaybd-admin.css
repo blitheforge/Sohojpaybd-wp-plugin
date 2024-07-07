@@ -1,0 +1,19 @@
+.dataTables_wrapper .dataTables_length select {
+  padding-right: 15px;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 0.5em 0.5em;
+}
+@media screen and (max-width: 640px) {
+  .dataTables_wrapper .dataTables_length {
+    float: left;
+  }
+  .dataTables_wrapper .dataTables_filter,
+  .dataTables_wrapper .dataTables_paginate {
+    float: inline-end;
+    margin-top: 0px;
+  }
+  .dataTables_wrapper .dataTables_info {
+    float: left;
+  }
+}
